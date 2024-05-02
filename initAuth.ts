@@ -16,19 +16,19 @@ const initAuth = () => {
     // firebaseAuthEmulatorHost: 'localhost:3000',
     firebaseAdminInitConfig: {
       credential: {
-        projectId: 'library-18-7da22',
-        clientEmail: 'firebase-adminsdk-mjk6h@library-18-7da22.iam.gserviceaccount.com',
+        projectId: 'larys-df83c',
+        clientEmail: 'firebase-adminsdk-rhbrk@larys-df83c.iam.gserviceaccount.com',
         privateKey: process.env.FIREBASE_PRIVATE_KEY as string
       },
     },
     firebaseClientInitConfig: {
-      apiKey: 'AIzaSyD4bWJZfvkhZ-MmLmQJEJwdWOk1SCQKu1w', // required
-      authDomain: 'library-18-7da22.firebaseapp.com',
+      apiKey: 'AIzaSyBCZF_QCYGHZI_CH50iHcXrKdeHaadcRUA', // required
+      authDomain: 'larys-df83c.firebaseapp.com',
       // databaseURL: 'https://my-example-app.firebaseio.com',
-      projectId: 'library-18-7da22',
+      projectId: 'larys-df83c',
     },
     cookies: {
-      name: 'library18', // required
+      name: 'larys', // required
       // Keys are required unless you set `signed` to `false`.
       // The keys cannot be accessible on the client side.
       keys: [
