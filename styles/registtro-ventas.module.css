@@ -1,0 +1,32 @@
+
+.inputCode {
+  border: 1px solid #3369fd;
+  outline: none;
+  width: 100%;
+  border-radius: 7px;
+  height: 35px;
+  padding-left: 5px;
+  color:#6c6f7e;
+  font-family:"Nunito"
+}
+.inputCode:hover {
+  background-color:#f6fbff;
+
+}
+.inputCode:hover {
+  cursor: pointer;
+}
+.inputCode:focus {
+  cursor:text;
+}
+.inputCode:focus-visible {
+  border: 1.5px solid #2738cf;
+}
+
+.labelForm {
+  color:rgb(82, 102, 121);
+  font-size:15px;
+  font-weight: 500;
+  font-family: 'Nunito';
+  /* text-transform: capitalize; */
+}
