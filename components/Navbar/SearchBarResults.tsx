@@ -35,9 +35,9 @@ const SearchBarResults = ({conditionalValue, handleClickOutside, results, produc
                     </div>
                     <h3 className='text-slate-600 capitalize font-nunito' dangerouslySetInnerHTML={testData(`${item.description}`)} />
                     <div className='flex justify-between items-center'>
-                      <div className='flex'>
+                      {/* <div className='flex'>
                         <span className='font-nunito text-slate-600'>marca: </span><p className='text-slate-600 capitalize font-nunito' dangerouslySetInnerHTML={testData(`${item.brand}`)} />
-                      </div>
+                      </div> */}
                       <div className='flex'>
                         <span className='font-nunito text-slate-600'>precio: $</span><p className='text-slate-600 capitalize font-nunito' dangerouslySetInnerHTML={testData(`${item.price}`)} />
                       </div>

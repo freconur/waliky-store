@@ -33,12 +33,12 @@ const SearchBar = ({conditionalValue, setConditionalValue,changeValueResult}:Pro
       const {
         // code: { value: code },
         description: { value: description },
-        brand: { value: brand },
+        // brand: { value: brand },
         price: { value: price },
-        stock: { value: stock },
+        // stock: { value: stock },
       } = _highlightResult
 
-      return { key, description, stock, brand, price }
+      return { key, description,price }
       // return { key, description, code, stock, brand, price }
     })
     changeValueResult(results)
